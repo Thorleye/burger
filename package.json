@@ -1,0 +1,30 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "A MySql and Handlebars based project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thorleye/burger.git"
+  },
+  "keywords": [
+    "MySql",
+    "Handlebars"
+  ],
+  "author": "Eric Thorley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thorleye/burger/issues"
+  },
+  "homepage": "https://github.com/Thorleye/burger#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "parser": "^0.1.4"
+  }
+}
