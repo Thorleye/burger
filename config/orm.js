@@ -14,9 +14,9 @@ var orm = {
         });
     },
 
-    selectAll: function(){
-        var queryString = "SELECT * FROM burger_name"
-        connection.query(queryString, function(err, result) {
+    selectAll: function(tableName, cb){
+        var queryString = "SELECT * FROM ??"
+        connection.query(queryString, [tableName], function(err, result) {
             if (err) {
               throw err;
             }
