@@ -15,11 +15,11 @@ $(function(){
           );
         });
     
-    $(".create-form").on("submit", function(event){
+    $(".create-form").on("submit", function(){
         event.preventDefault();
 
         var newBurger = {
-            burger_name: $("#bname").val()
+            burger_name: $("#name").val().trim()
         };   
         console.log(newBurger)
         $.ajax("/api/burgers", {
