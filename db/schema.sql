@@ -8,5 +8,5 @@ devoured BOOLEAN default false,
 PRIMARY KEY (id)
 );
 
-
+drop table burgers;
 
