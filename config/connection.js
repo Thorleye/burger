@@ -11,6 +11,7 @@ if (process.env.JAWSDB_URL){
     port: 3306,
     database: "burgers_db"
  });
+};
 
 connection.connect(function (err, res){
     if (err) throw err; 
